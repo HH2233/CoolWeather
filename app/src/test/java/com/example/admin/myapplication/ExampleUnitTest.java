@@ -1,4 +1,4 @@
-package com.example.admin.coolweather;
+package com.example.admin.myapplication;
 
 import org.junit.Test;
 
