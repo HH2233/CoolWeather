@@ -4,16 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
-
-    <TextView
-        android:id="@+id/abc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <ListView
-        android:id="@+id/listview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WeatherActivity"
+    tools:showIn="@layout/activity_weather">
 
 </android.support.constraint.ConstraintLayout>
